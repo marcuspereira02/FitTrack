@@ -1,41 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <View
-        android:id="@+id/view_background_category"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="16dp"
-        android:background="@drawable/background_category"
-        app:layout_constraintBottom_toBottomOf="@id/tv_category_name"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <ImageView
         android:id="@+id/iv_category"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_category"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:scaleType="centerInside"
         android:src="@drawable/ic_run"
-        app:layout_constraintBottom_toBottomOf="@id/view_background_category"
-        app:layout_constraintEnd_toEndOf="@id/view_background_category"
-        app:layout_constraintStart_toStartOf="@id/view_background_category"
-        app:layout_constraintTop_toTopOf="@id/view_background_category" />
-
-    <TextView
-        android:id="@+id/tv_category_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="12sp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/manrope_medium"
-        android:text="Running"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/view_background_category"
-        app:layout_constraintStart_toStartOf="@id/view_background_category"
-        app:layout_constraintTop_toBottomOf="@id/view_background_category" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

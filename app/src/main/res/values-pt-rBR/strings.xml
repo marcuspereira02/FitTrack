@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitTrack</string>
+    <string name="new_category">Nova</string>
+    <string name="all_activities">Todos</string>
+    <string name="create_category">Criar uma categoria</string>
+    <string name="select_a_color_for_the_category">Selecione uma cor para a categoria</string>
+    <string name="select_an_icon_to_represent_your_category">Selecione um icone para representar sua categoria</string>
+    <string name="create">Criar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_color">Por favor, selecione uma cor.</string>
+    <string name="select_icon">Por favor, selecione um ícone.</string>
+    <string name="create_activity">Criar atividade</string>
+    <string name="select_a_category">Selecione uma categoria</string>
+    <string name="from_a_name_to_activity">De um nome para a atividade</string>
+    <string name="title_name_e_g_pedaling">Ex: Pedalada</string>
+    <string name="what_duration">Qual foi a duração (minutos)</string>
+    <string name="duration_e_g_45">Ex: 45</string>
+    <string name="what_distance">Qual foi a distância percorrida (km)</string>
+    <string name="distance_hint">Ex: 10</string>
+    <string name="delete">Excluir</string>
+    <string name="update">Atualizar</string>
+    <string name="update_activity">Atualizar Atividade</string>
+    <string name="write_activity">Por favor, escreva um título para a atividade</string>
+    <string name="write_duration">Por favor, escreva uma duração para a atividade</string>
+    <string name="select_category">Por favor, selecione uma categoria</string>
+    <string name="full_load">Qual foi a carga do treino (kg)</string>
+    <string name="distance_traveled">Qual foi a distância percorrida (km)</string>
+    <string name="attention">Atenção</string>
+    <string name="info_label">Ao excluir uma categoria, você também irá excluir as atividades dela. Você tem certeza?</string>
+    <string name="category">Categoria</string>
+    <string name="activities">Atividades</string>
+    <string name="total_time">Tempo total</string>
+    <string name="total_distance">Distância total</string>
+    <string name="length">km</string>
+    <string name="activities_registered">Atividades cadastradas</string>
+    <string name="registered_activity">Atividade cadastrada</string>
+    <string name="distance_empty">Preencha todos os campos</string>
+    <string name="please_new_category">Por favor, crie uma nova categoria.</string>
+</resources>
