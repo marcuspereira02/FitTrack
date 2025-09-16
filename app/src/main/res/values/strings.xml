@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">FitTrack</string>
+    <string name="new_category">New</string>
+    <string name="all_activities">All</string>
+    <string name="create_category">Create category</string>
+    <string name="select_a_color_for_the_category">Select a color for the category</string>
+    <string name="select_an_icon_to_represent_your_category">Select an icon to represent your category</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_color">Please select a color</string>
+    <string name="select_icon">Please select a icon</string>
+    <string name="create_activity">Create activity</string>
+    <string name="select_a_category">Select a category</string>
+    <string name="from_a_name_to_activity">From a name to activity</string>
+    <string name="title_name_e_g_pedaling">Title name: e.g: Pedaling</string>
+    <string name="what_duration">What was duration in minutes</string>
+    <string name="duration_e_g_45">Duration: e.g: 45</string>
+    <string name="what_distance">What was the distance traveled in miles</string>
+    <string name="distance_hint">Distance: e.g: 50</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="update_activity">Update Activity</string>
+    <string name="write_activity">Please write a title for the activity</string>
+    <string name="write_duration">Please write a duration for the activity</string>
+    <string name="select_category">Please select a category</string>
+    <string name="full_load">What was the training load (kg)</string>
+    <string name="distance_traveled">What was the distance traveled (miles)</string>
+    <string name="attention">Attention</string>
+    <string name="info_label">Deleting a category also deletes its activities. Are you sure?</string>
+    <string name="category">Category</string>
+    <string name="activities">Activities</string>
+    <string name="total_time">Total time</string>
+    <string name="total_distance">Total distance</string>
+    <string name="length">mi</string>
+    <string name="activities_registered">Activities registered</string>
+    <string name="registered_activity">Activity registered</string>
+    <string name="distance_empty">Please fill in all fields</string>
+    <string name="please_new_category">Please add a new category.</string>
+
 </resources>

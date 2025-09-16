@@ -47,24 +47,24 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:fontFamily="@font/manrope_medium"
-        android:text="Tempo total de atividades"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/bg_info"
         app:layout_constraintStart_toStartOf="@id/bg_info"
-        app:layout_constraintTop_toTopOf="@id/bg_info" />
+        app:layout_constraintTop_toTopOf="@id/bg_info"
+        tools:text="Tempo total de atividades" />
 
     <TextView
         android:id="@+id/tv_metrics"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/manrope_medium"
-        android:text="3 horas"
         android:textColor="@color/white"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/bg_info"
         app:layout_constraintStart_toStartOf="@+id/bg_info"
-        app:layout_constraintTop_toBottomOf="@id/tv_metrics_label" />
+        app:layout_constraintTop_toBottomOf="@id/tv_metrics_label"
+        tools:text="3 horas" />
 
     <RadioGroup
         android:id="@+id/rg_metrics"
@@ -74,6 +74,7 @@
         android:backgroundTint="@color/white"
         android:gravity="center"
         android:orientation="horizontal"
+        android:padding="0dp"
         app:layout_constraintBottom_toBottomOf="@id/bg_info"
         app:layout_constraintEnd_toEndOf="@id/bg_info"
         app:layout_constraintStart_toStartOf="@id/bg_info">
@@ -82,6 +83,7 @@
             android:id="@+id/rb_total_activity_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             app:buttonTint="@color/blue" />
 
         <androidx.appcompat.widget.AppCompatRadioButton
@@ -105,7 +107,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/manrope_medium"
-        android:text="Category"
+        android:text="@string/category"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -132,7 +134,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/manrope_medium"
-        android:text="Activities"
+        android:text="@string/activities"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -169,10 +171,64 @@
         android:id="@+id/fab_create_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="@color/blue"
         android:src="@drawable/ic_baseline_add"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_margin="24dp"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_attention_category_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manrope_medium"
+            android:text="@string/attention"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bg_info" />
+
+        <TextView
+            android:id="@+id/tv_category_empty_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manrope_medium"
+            android:text="@string/please_new_category"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/img_category_empty"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/add_files" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_category_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_filled"
+            android:text="@string/create"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

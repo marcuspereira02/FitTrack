@@ -5,4 +5,12 @@
     <color name="red">#CF0F47</color>
     <color name="grey">#9AA6B2</color>
     <color name="blue">#344CB7</color>
+    <color name="blue_category">#40A2E3</color>
+    <color name="yellow">#F3C623</color>
+    <color name="orange">#F4631E</color>
+    <color name="purple">#7F55B1</color>
+    <color name="maroon">#A94A4A</color>
+    <color name="green">#5CB338</color>
+    <color name="pink">#FF2DD1</color>
+    <color name="screen_background">#121212</color>
 </resources>
